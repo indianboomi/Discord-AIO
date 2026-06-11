@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyTube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MyTube</h1>
+    </header>
+
+    <div class="container">
+        <div class="video-player">
+            <video id="mainVideo" controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="sidebar">
+            <div class="video-item" onclick="changeVideo('video1.mp4')">
+                Video 1
+            </div>
+
+            <div class="video-item" onclick="changeVideo('video2.mp4')">
+                Video 2
+            </div>
+
+            <div class="video-item" onclick="changeVideo('video3.mp4')">
+                Video 3
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
