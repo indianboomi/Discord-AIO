@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #181818;
+    color: white;
+}
+
+header {
+    background: #ff0000;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.video-player {
+    flex: 3;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.video-item {
+    background: #282828;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.video-item:hover {
+    background: #404040;
+}
